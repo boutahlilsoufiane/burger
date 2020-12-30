@@ -1,0 +1,33 @@
+.Input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px
+}
+
+.Label {
+    width: 100%;
+    display: block;
+}
+
+.InputElement {
+    background-color: white;
+    border-color: #703B09;
+    width: 100%;
+    color: black;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.InputElement:focus {
+    outline: none;
+    color: white;
+    background-color: #703B09;
+}
+
+.Error {
+    color: red;
+    font-size: 15px;
+    text-align: left;
+}
