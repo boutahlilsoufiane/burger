@@ -6,6 +6,7 @@ import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 import Orders from './containers/Orders/Orders';
 import Checkout from './containers/Checkout/Checkout';
 import Auth from './containers/Auth/Auth';
+import Logout from './containers/Auth/Logout/Logout';
 
 class App extends Component {
   render() {
@@ -13,9 +14,13 @@ class App extends Component {
       <div>
         <Layout>
           <Switch>
-            <Route path="/orders" render={props => <Orders {...props} />} />
-            <Route path="/auth" render={props => <Auth {...props} />} />
-            <Route path="/checkout" render={(props) => <Checkout {...props} />} />
+            <Route path="/auth" render={(props) => <Auth {...props} />} />
+            <Route path="/logout" render={(props) => <Logout {...props} />} />
+            <Route path="/orders" render={(props) => <Orders {...props} />} />
+            <Route
+              path="/checkout"
+              render={(props) => <Checkout {...props} />}
+            />
             <Route path="/" render={(props) => <BurgerBuilder {...props} />} />
           </Switch>
         </Layout>
