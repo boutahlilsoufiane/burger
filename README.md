@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://i.ibb.co/XpZ7jfg/burger-main-page.png" />
+<img style="margin-left: auto; margin-right: auto;" src="https://i.ibb.co/XpZ7jfg/burger-main-page.png" />
 
 
 The Burger project is a tool that can help you to build your burger with your favorite ingredients and purchase it.
