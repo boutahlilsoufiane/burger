@@ -1,15 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/boutahlilsoufiane/burger">
-    <img src="https://i.ibb.co/Yfy1bsB/burger-logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">A tool to build your burger</h3>
-
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
