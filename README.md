@@ -61,9 +61,13 @@ The Burger project is created by using:
    ```sh
    git clonehttps://github.com/boutahlilsoufiane/burger.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
+   ```  
+3. Run the project
+   ```sh
+   npm start
    ```
    
 
